@@ -2,26 +2,43 @@
 
 Introduction 
  	 
-The ability to remember and recall information is a fundamental cognitive skill that plays a crucial role in our daily lives. As technology continues to shape our world, it presents opportunities to harness the power of programming and create interactive experiences that both entertain and challenge our mental faculties. This report presents a memory game project developed using the Java programming language, aimed at testing and improving players' memory skills while providing an engaging gaming experience. 
-The development process involved various key components, including user interface design, card shuffling, game logic, and score tracking. The graphical user interface (GUI) was carefully designed using Java's Swing library to provide a visually appealing and user-friendly experience. The cards were shuffled using efficient algorithms to ensure that each game presents a unique arrangement, maximizing the challenge for players and preventing predictability. 
-To create an engaging gameplay experience, the project implemented intuitive game logic that handles user interactions such as flipping cards, tracking selected pairs, and checking for matches. Successful matches were rewarded by keeping the cards face up, while unsuccessful attempts prompted the cards to be flipped back, 
+The ability to remember and recall information is a fundamental cognitive skill that plays a crucial role in our daily lives. As technology continues to shape our
+world, it presents opportunities to harness the power of programming and create interactive experiences that both entertain and challenge our mental faculties. 
+This report presents a memory game project developed using the Java programming language, aimed at testing and improving players' memory skills while providing an 
+engaging gaming experience. 
+The development process involved various key components, including user interface design, card shuffling, game logic, and score tracking. The graphical user 
+interface (GUI) was carefully designed using Java's Swing library to provide a visually appealing and user-friendly experience. The cards were shuffled using 
+efficient algorithms to ensure that each game presents a unique arrangement, maximizing the challenge for players and preventing predictability. 
+To create an engaging gameplay experience, the project implemented intuitive game logic that handles user interactions such as flipping cards, tracking selected 
+pairs, and checking for matches. Successful matches were rewarded by keeping the cards face up, while unsuccessful attempts prompted the cards to be flipped back, 
 allowing players to try again. This iterative process encouraged players to improve their memory skills while striving for a better score. 	 
 Objectives 
  
-1.	Develop a memory game using Java programming language: The primary objective of this project was to create a memory game application using Java. By implementing the game from scratch, it aimed to showcase the programming skills and ability to design and develop interactive applications. 
-2.	Test and enhance players' memory skills: The project sought to create a game that challenges and improves players' memory capabilities. By presenting a grid of cards and requiring players to remember the positions of matching pairs, the objective was to provide an engaging platform for exercising and developing memory skills. 
-3.	Design an intuitive and visually appealing user interface: The project aimed to create a user-friendly and visually appealing graphical user interface (GUI) using Java's Swing library. The objective was to provide an interactive and immersive gaming experience that would attract and engage players. 
-4.	Implement game logic and interaction: The project involved developing game logic that allows players to interact with the cards by flipping them over and checking for matches. The objective was to create a seamless and intuitive gameplay experience that encourages players to strategize and use their memory effectively. 
+1.	Develop a memory game using Java programming language: The primary objective of this project was to create a memory game application using Java. By 
+    implementing the game from scratch, it aimed to showcase the programming skills and ability to design and develop interactive applications. 
+2.	Test and enhance players' memory skills: The project sought to create a game that challenges and improves players' memory capabilities. By presenting a 
+    grid of cards and requiring players to remember the positions of matching pairs, the objective was to provide an engaging platform for exercising and developing
+    memory skills. 
+3.	Design an intuitive and visually appealing user interface: The project aimed to create a user-friendly and visually appealing graphical user interface (GUI) 
+    using Java's Swing library. The objective was to provide an interactive and immersive gaming experience that would attract and engage players. 
+4.	Implement game logic and interaction: The project involved developing game logic that allows players to interact with the cards by flipping them over and 
+    checking for matches. The objective was to create a seamless and intuitive gameplay experience that encourages players to strategize and use their memory 
+    effectively. 
  	 
 Functionalities 
  
-1.	Card Grid Generation and Display: The project should generate a grid of cards, each displaying a unique image. The cards should be arranged randomly using shuffling algorithms to ensure a different layout for each game. 
+1.	Card Grid Generation and Display: The project should generate a grid of cards, each displaying a unique image. The cards should be arranged randomly using shuffling 
+    algorithms to ensure a different layout for each game. 
  
-2.	User Interface Design: The project should incorporate a visually appealing and intuitive graphical user interface (GUI). The GUI should provide clear instructions, display the card grid, and include interactive elements such as buttons for flipping cards. 
+2.	User Interface Design: The project should incorporate a visually appealing and intuitive graphical user interface (GUI). The GUI should provide clear instructions, 
+    display the card grid, and include interactive elements such as buttons for flipping cards. 
  
  
-3.	Card Flipping and Matching: The project should allow players to flip cards by clicking on them. When two cards are flipped, the game logic should check if they match. If they do, the cards should remain face up; otherwise, they should be flipped back. 
+3.	Card Flipping and Matching: The project should allow players to flip cards by clicking on them. When two cards are flipped, the game logic should check if they match. 
+    If they do, the cards should remain face up; otherwise, they should be flipped back. 
  
-4.	Difficulty Levels: The project should provide adjustable difficulty levels, allowing players to choose the number of cards in the grid. This functionality ensures that players of different skill levels can enjoy the game and tailor the challenge to their abilities. 
+4.	Difficulty Levels: The project should provide adjustable difficulty levels, allowing players to choose the number of cards in the grid. This functionality ensures that 
+    players of different skill levels can enjoy the game and tailor the challenge to their abilities. 
  
-5.	Game Completion and Replay: Once all the cards are successfully matched, the project should indicate the completion of the game and provide an option to replay the game with a new card arrangement.
+5.	Game Completion and Replay: Once all the cards are successfully matched, the project should indicate the completion of the game and provide an option to replay the game 
+    with a new card arrangement.
